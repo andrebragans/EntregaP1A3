@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+body {
+    background-color: #200E25;
+    margin: 0;
+}
+
+.cabecalho {
+    background-color: #532B53;
+    color: white;
+    font-family: 'Lazelar', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+
+.cabecalho__imagem__logo {
+    width: 120px;
+    
+}
+
+.titulo {
+    font-size: 40px;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.cabecalho__perfil__texto {
+    font-size: 15px;
+    margin: 0;
+}
+
+.cabecalho__perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 140px;
+}
+
+.cabecalho__perfil__texto{
+    color: white;
+}
+
+.cabecalho__imagem__perfil{
+    border-radius: 50%;
+    width: 31px;
+    height: 31px;
+}
+.texto__misc {
+    color: #CDABCD;
+    font-family: 'Lazelar', sans-serif;
+}
+
+.texto__misc {
+    width: 100%;
+    font-size: 20px;
+    text-align:left;
+    margin-right: 65px;
+    display: inline;
+    margin-left: 80px;
+}
+
+.corpo__texto__crud {
+    
+    background-color: #633a63;
+    color: white;
+    border-radius: 18px;
+    width: 100%;
+    height: 94px;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    line-height: 94px;
+    text-decoration: none;
+}
+
+
+
+.main {
+    width: 100%px;
+    height: 364px;
+    display: flex;
+}
+
+.corpo {
+    
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.imagensjogo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 200px;
+    padding: 20px;
+    
+}
+
+.imagensjogo__imagem {
+    width: 270px;
+    height: 350px;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    
+}
+
+.meio{
+    background-color: rgb(83, 43, 83);
+    width: 80%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction:column;
+    padding: 20px 25px;
+    background: rgb(83, 43, 83);
+    border-radius: 10px;
+    text-align: center;
+    border-radius: 13px;
+    margin-left: 100px;
+    display: flex;
+    
+  }
