@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CRUD de Jogos</title>
+  <link rel="stylesheet" type="text/css" href="stylecrud.css">
+  <script src="javacrud.js" defer></script>
+</head>
+<body>
+
+  <div id="header-container">
+    <a href="telalogada.html"> <img src="logo.png" alt="Logo" class="img-crud"> </a>
+    <h1>CRUD de Jogos da GamesLevel</h1>
+  </div>
+
+    <form id="game-form">
+      <input type="text" placeholder="Minecraft" id="game-title" placeholder="Titulo do Jogo" required>
+      <input type="text" placeholder="Epic Games" id="game-platform" placeholder="Plataforma" required>
+
+      <select class="caixastatus">
+        <option type="checkbox" id="status-jogado" value="jogado"> Jogado
+        <option type="checkbox" id="status-jogando" value="jogando"> Jogando
+        <option type="checkbox" id="status-zerado" value="zerado"> Zerado
+        <option type="checkbox" id="status-nao-recomendado" value="nao-recomendado"> Nao Recomendado
+        <option type="checkbox" id="status-outro" value="outro"> Outro Status
+      </select>
+     
+      
+      <select id="game-rating">
+        <option value="1">1 Estrela</option>
+        <option value="2">2 Estrelas</option>
+        <option value="3">3 Estrelas</option>
+        <option value="4">4 Estrelas</option>
+        <option value="5">5 Estrelas</option>
+        <option value="6">6 Estrelas</option>
+        <option value="7">7 Estrelas</option>
+        <option value="8">8 Estrelas</option>
+        <option value="9">9 Estrelas</option>
+        <option value="10">10 Estrelas</option>
+      </select>
+      <button type="submit">Adicionar Jogo</button>
+    </form>
+  
+    <div id="game-list">
+      <ul id="games"></ul>
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+  </html>

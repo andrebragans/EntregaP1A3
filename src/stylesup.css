@@ -1,0 +1,82 @@
+html, body, form{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(32, 14, 37);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  body{
+    background-color: rgb(32, 14, 37);
+    width:100%;
+    height: 100%;
+  }
+  
+  form{
+    background-color: rgb(83, 43, 83);
+    width: 20%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    padding: 20px 35px;
+    background: rgb(83, 43, 83);
+    border-radius: 10px;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 13px;
+    
+  }
+  
+  
+  .botaofim{
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 6;
+    background-color: black;
+    color: white;
+    cursor: pointer
+  
+  }
+  
+  .header{
+    background-color:  rgb(83, 43, 83);
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  .titulo{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-family:fantasy;
+    color: white;
+    margin-right: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .logo{
+    width: 150px;
+    margin-left: 50px;
+  }
+  
+  h1{
+    color: rgb(0, 0, 0);
+    font-family: arial;
+    text-align: left;
+    font-size: small;
+  }
+
+  textarea, input{
+    width: 260px;
+    height: 70px;
+    margin: 0;
+    
+  }
