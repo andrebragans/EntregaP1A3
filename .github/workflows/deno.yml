@@ -1,0 +1,25 @@
+# Arquivo: .github/workflows/main.yml
+
+name: Deno Workflow
+
+on:
+  push:
+    branches:
+      - main  # Rodar o fluxo de trabalho quando houver push na branch main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout do Código
+      uses: actions/checkout@v2
+
+    - name: Configurar o Deno
+      uses: denolib/setup-deno@v2
+      with:
+        deno-version: 1.x  # Versão do Deno que deseja utilizar
+
+    - name: Executar Script JavaScript
+      run: deno run index.js
+
